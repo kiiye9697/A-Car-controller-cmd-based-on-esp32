@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="QtWidgetsApplication">
+    <file>bkw.png</file>
+  </qresource>
+  <qresource prefix="新前缀"/>
+</RCC>

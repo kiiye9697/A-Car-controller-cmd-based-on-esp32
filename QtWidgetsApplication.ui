@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtWidgetsApplicationClass</class>
+ <widget class="QWidget" name="QtWidgetsApplicationClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>584</width>
+    <height>399</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>QtWidgetsApplication</string>
+  </property>
+  <widget class="QPushButton" name="Buttonfront">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>120</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::FocusPolicy::TabFocus</enum>
+   </property>
+   <property name="text">
+    <string>前进</string>
+   </property>
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::MediaSeekBackward"/>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Buttonback">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>120</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>后退</string>
+   </property>
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::MediaSeekForward"/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>299</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>30</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>     小车主控遥控菜单</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="leftturn">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>190</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>左转</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rightturn">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>190</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>右转</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fastleft">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>260</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>快速左转</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fastright">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>260</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>快速右转</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="PWMspeed">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>320</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PWM调速</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exit">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>320</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="QtWidgetsApplication.qrc"/>
+ </resources>
+ <connections/>
+</ui>
