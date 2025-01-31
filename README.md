@@ -1,0 +1,1 @@
+see the full introduction on the [blog](https://kiiye9697.cn/index.php/2025/01/25/%e7%bb%93%e8%af%be%e8%ae%be%e8%ae%a1-%e5%9f%ba%e4%ba%8eqt-c%e6%a1%86%e6%9e%b6%e7%9a%84esp32%e5%b0%8f%e8%bd%a6%e6%8e%a7%e5%88%b6%e7%a8%8b%e5%ba%8f/)
